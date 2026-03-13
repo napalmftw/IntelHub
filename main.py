@@ -23,7 +23,7 @@ def get_token():
     payload = {
         "iss": APP_ID,
         "iat": current_time,
-        "exp": current_time + 3600
+        "exp": current_time + 9600
     }
 
     # If the user provides their UID/Token, we upgrade the JWT to a "Master"
