@@ -25,6 +25,6 @@ Intel Hub runs locally on your PC to monitor your **DSD+** logs in real-time. To
 Clone the repository and install the necessary libraries:
 
 ```powershell
-git clone [https://github.com/your-username/intel-hub.git](https://github.com/your-username/intel-hub.git)
+git clone [https://github.com/napalmftw/intel-hub.git](https://github.com/napalmftw/intel-hub.git)
 cd intel-hub
 pip install streamlit pandas curl_cffi pyjwt plotly streamlit-autorefresh
