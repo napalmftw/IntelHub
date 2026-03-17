@@ -25,6 +25,21 @@ Intel Hub runs locally on your PC to monitor your **DSD+** logs in real-time. To
 Clone the repository and install the necessary libraries:
 
 ```powershell
-git clone [https://github.com/napalmftw/intel-hub.git](https://github.com/napalmftw/intel-hub.git)
+git clone https://github.com/napalmftw/intel-hub.git
 cd intel-hub
 pip install streamlit pandas curl_cffi pyjwt plotly streamlit-autorefresh
+```
+
+#### 3. Running the dashboard
+You should be able to run it from anywhere - point the script at your DSD directory by editing with notepad or similar then:
+
+```powershell
+python -m streamlit run production_bcfy.py
+```
+
+### TO DO LIST:
+
+* Clean up the code.
+* Rename some files.
+* Alpha test this.
+* I don't even know if my API server works effectively and I'm not going to pay for a better service to serve about three people who may use this LOL
